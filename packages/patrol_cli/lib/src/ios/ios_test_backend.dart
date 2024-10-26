@@ -45,7 +45,7 @@ enum BuildMode {
     if (flavor == null) {
       return xcodeName;
     }
-    return '$xcodeName-$flavor';
+    return '$flavor';
   }
 }
 
